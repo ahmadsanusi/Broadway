@@ -7,6 +7,7 @@ body {
   background-image: url('../../resources/images/the-flatiron-building.png');
   text-align: center;
   color: white;
+  height: 300px;
 }
 
 
@@ -17,12 +18,21 @@ body {
 
 }
 
-.header btn-nav a {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.top-nav {
+  margin: 15px;
+  padding: 40px
+  position: relative;
   text-decoration: underline;
+  font-size: 18px;
+  display:block;
+  color: white;
 }
 
+.top-nav a {
+  border: 1px solid;
+  color: white;
+
+}
 
 .btn-nav {
   font-size: 18px;
